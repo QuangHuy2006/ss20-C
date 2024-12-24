@@ -170,7 +170,7 @@ void find(revenue *a, int n){
 }
 
 void total(revenue *a, int n){
-	long long sum;
+	long long sum=0;
 	for(int i=1;i<=n;i++){
 		sum+=a[i].outprice;
 	}
